@@ -1,0 +1,128 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.my-header {
+  padding:1rem;
+  background-color: black;
+  color:white;
+  height:20vh;
+}
+.heading {
+  padding:0.5rem;
+  background-color:yellow;
+  color:black;
+  
+}
+/* styling navigation link to top of page */
+.top-link {  
+  background-color: yellow;
+  text-align: right;
+}
+.top-link a {
+  color:rgb(4, 4, 133);
+  padding:0 2rem;
+}
+.top-link a:hover{
+  color:rgb(255, 0, 200);
+  padding-right:2rem;
+}
+/* styling the zone where options will be displayed */
+.choice {
+  padding:3rem 1rem;  
+  background-color: black;
+  color:black;
+}
+/* individual option (card) styling */
+.my-card {
+  padding:1.5rem;
+  border: 0.5rem yellow solid;
+  width:10rem;
+}
+.category {
+  height:50vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question {
+  padding:1rem;
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  text-align: center;
+  
+}
+.answer {
+    padding:0.5rem;
+    color:yellow;
+    background-color: black;
+    text-align: left;
+}    
+.show-number {
+  padding:1rem;
+  background-color: rgb(168, 168, 149);
+  color:black;
+  text-align: center;
+}  
+.show-text {
+  padding:1rem;
+  background-color: yellow;
+  color:black;
+  text-align: center;
+}
+.show-date {
+  padding:1rem;
+  background-color: rgb(168, 168, 149);
+  color:black;
+  text-align: center;
+  font-style: oblique;
+}
+.show-fact {  
+  padding:1rem;
+  text-align: center;
+  background-color: yellow;
+  color:black;
+}
+.show-year {
+  padding:1rem;
+  background-color: rgb(168, 168, 149);
+  color:black;
+  text-align: center;
+  font-style: oblique;
+}
+.show-fact-year {
+  padding:1rem;
+  text-align: center;
+  background-color: yellow;
+  color:black;
+}
+
+footer {
+  background-color: gray;
+  color:rgb(0, 0, 0);
+  text-align: center;
+}
+.col-6 {
+  width :50%;
+}
+.col-4 {
+  width :33.3333%;
+}
+.col-3 {
+  width: 25%;
+}
+@media screen and (max-width: 576px) {
+  .col-6{
+      width: 100%;
+  }
+  .col-4 {
+    width:100%;
+  }
+  .col-12 {
+    width:100%;
+  }
+  .my-card {
+    width:100%;
+  }
+}
