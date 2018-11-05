@@ -1,7 +1,7 @@
 $(function () { // document ready function
     function displayNumberTrivia() {
         var num = parseInt($("#input-number").val());
-        var my_url = "http://numbersapi.com/" + num;
+        var my_url = "//numbersapi.com/" + num;
         my_url = my_url + "/trivia?notfound=floor&fragment";
 
         $.get(my_url, function (data) {
@@ -37,7 +37,7 @@ $(function () { // document ready function
             })
         }
         else { /* for all other months */
-            var my_url = "http://numbersapi.com/" + myMonth;
+            var my_url = "//numbersapi.com/" + myMonth;
             my_url = my_url + "/" + myDay;
 
             my_url = my_url + "/date?notfound=floor&fragment";
@@ -52,7 +52,7 @@ $(function () { // document ready function
     };
     function displayYearTrivia() {
         var myYear = parseInt($("#nameYear").val());
-        var my_url = "http://numbersapi.com/" + myYear;
+        var my_url = "//numbersapi.com/" + myYear;
         my_url = my_url + "/year?notfound=floor&fragment";
         $.get(my_url, function (data) {
             $("#year-answer").css("display","block");
